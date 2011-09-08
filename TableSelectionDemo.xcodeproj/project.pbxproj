@@ -13,6 +13,7 @@
 		EAC39DAA1419369000AB2A27 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = EAC39DA81419369000AB2A27 /* Credits.rtf */; };
 		EAC39DAD1419369000AB2A27 /* TableSelectionDemoAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC39DAC1419369000AB2A27 /* TableSelectionDemoAppDelegate.m */; };
 		EAC39DB01419369100AB2A27 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = EAC39DAE1419369100AB2A27 /* MainMenu.xib */; };
+		EAC39DB814193D3D00AB2A27 /* CustomTable.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC39DB714193D3D00AB2A27 /* CustomTable.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,14 +22,16 @@
 		EAC39D9C1419369000AB2A27 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		EAC39D9D1419369000AB2A27 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		EAC39D9E1419369000AB2A27 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		EAC39DA11419369000AB2A27 /* TableSelectionDemo-Info.plist */ = {isa = PBXFileReference; path = "TableSelectionDemo-Info.plist"; sourceTree = "<group>"; };
+		EAC39DA11419369000AB2A27 /* TableSelectionDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TableSelectionDemo-Info.plist"; sourceTree = "<group>"; };
 		EAC39DA31419369000AB2A27 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		EAC39DA51419369000AB2A27 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		EAC39DA71419369000AB2A27 /* TableSelectionDemo-Prefix.pch */ = {isa = PBXFileReference; path = "TableSelectionDemo-Prefix.pch"; sourceTree = "<group>"; };
+		EAC39DA71419369000AB2A27 /* TableSelectionDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TableSelectionDemo-Prefix.pch"; sourceTree = "<group>"; };
 		EAC39DA91419369000AB2A27 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		EAC39DAB1419369000AB2A27 /* TableSelectionDemoAppDelegate.h */ = {isa = PBXFileReference; path = TableSelectionDemoAppDelegate.h; sourceTree = "<group>"; };
+		EAC39DAB1419369000AB2A27 /* TableSelectionDemoAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableSelectionDemoAppDelegate.h; sourceTree = "<group>"; };
 		EAC39DAC1419369000AB2A27 /* TableSelectionDemoAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableSelectionDemoAppDelegate.m; sourceTree = "<group>"; };
 		EAC39DAF1419369100AB2A27 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		EAC39DB614193D3D00AB2A27 /* CustomTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTable.h; sourceTree = "<group>"; };
+		EAC39DB714193D3D00AB2A27 /* CustomTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTable.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +89,8 @@
 				EAC39DAC1419369000AB2A27 /* TableSelectionDemoAppDelegate.m */,
 				EAC39DAE1419369100AB2A27 /* MainMenu.xib */,
 				EAC39DA01419369000AB2A27 /* Supporting Files */,
+				EAC39DB614193D3D00AB2A27 /* CustomTable.h */,
+				EAC39DB714193D3D00AB2A27 /* CustomTable.m */,
 			);
 			path = TableSelectionDemo;
 			sourceTree = "<group>";
@@ -128,6 +133,7 @@
 		EAC39D8C1419369000AB2A27 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastUpgradeCheck = 0420;
 				ORGANIZATIONNAME = Wings;
 			};
 			buildConfigurationList = EAC39D8F1419369000AB2A27 /* Build configuration list for PBXProject "TableSelectionDemo" */;
@@ -167,6 +173,7 @@
 			files = (
 				EAC39DA61419369000AB2A27 /* main.m in Sources */,
 				EAC39DAD1419369000AB2A27 /* TableSelectionDemoAppDelegate.m in Sources */,
+				EAC39DB814193D3D00AB2A27 /* CustomTable.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
